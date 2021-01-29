@@ -1,0 +1,35 @@
+.widjets {
+    flex: 0.3;
+}
+
+.widjets_input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widjets_input>input {
+    border: none;
+    background-color: var(--twitter-background);
+}
+
+.widjets_searchIcon {
+    color: grey;
+}
+
+.widjets_widjetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.widjets_widjetContainer>h2 {
+    font-weight: 800;
+    font-size: 18px;
+}
